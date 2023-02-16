@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Roni</h1>
+                    </a>
+                    
+                </div>
+                <div class="menu-icon" onclick="menufunction()">
+                    <div class="icon">
+                        <img src="img/logo.jpg" alt="">
+                    </div>
+                </div>
+                
+                    
+                <nav class="main-nav" id="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="#about-area">About</a>
+                    <a href="#service-area">Service</a>
+                    <a href="#contuct-area">Contect</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-area">
+        <section class="hero-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>
+                            I'm Najimul Hossain Roni
+                        </h2>
+                        <p>Font-End web devlopment expert</p>
+                        <a href="https://m.me/prince.shekh.5496" class="them-button">Contuct me</a>
+
+                    </div>
+                    <div class="hero-img">
+                        <img src="img/roni.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="about-area" id="about-area">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="img/log.jpg" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h2>More About Me</h2>
+                        <p>I am font-end web devlopment expert. I start this coding jurney few month ago. and other site I work at BD ARMY.</p>
+                        <a href="https://www.facebook.com/prince.shekh.5496?mibextid=ZbWKwL" class="them-button">Dwonload Resume</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+      <section class="service-area" id="service-area">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Service</h3>
+            <h2>What i do</h2>
+          </div>
+          <div class="service-content">
+            <div class="single-service">
+                <h3>Website desinge</h3>
+                <p>I am a profetional web devlopment expart. can you make any kind of website that help for your modern earth bussness. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+            <div class="single-service">
+                <h3>Logo Make</h3>
+                <p>Iam logo desing expert. if your need any kind of logo you contuct me. exmple, your compny logo, Youtube thumble, Youtube channel logo, Facebook group profile photo etc.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+            <div class="single-service">
+                <h3>Digitul Marketing</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, labore voluptatem vitae eum quod laudantium cum accusamus tempore ipsa aperiam iure laborum provident? Atque amet laudantium mollitia! Doloribus, unde ea.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+            <div class="single-service">
+                <h3>Android App Devlopment</h3>
+                <p>I am android app devloper. i make totally new type app. and convert website to app. exmple online offline seba app, job news app, learning app, vedeo player app live tv channel app etc.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+            <div class="single-service">
+                <h3>Gaming App Devlopment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, labore voluptatem vitae eum quod laudantium cum accusamus tempore ipsa aperiam iure laborum provident? Atque amet laudantium mollitia! Doloribus, unde ea.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+            <div class="single-service">
+                <h3>Video Editing</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, labore voluptatem vitae eum quod laudantium cum accusamus tempore ipsa aperiam iure laborum provident? Atque amet laudantium mollitia! Doloribus, unde ea.</p>
+                <a href="#" class="them-button-small">Learn More</a>
+            </div>
+          </div>  
+        </div>
+      </section>  
+      <section class="contuct-area" id="contuct-area">
+        <div class="container">
+            <div class="section-heading">
+                <h3>Contuct</h3>
+                <h2>Fell free to contuct me</h2>
+            </div>
+            <div class="contuct-content">
+                <form action="">
+                 
+                    <input type="text" placeholder="First Name" id="first-name">
+                    <input type="text" placeholder="Last Name" id="last-name">
+                    <input type="Email" placeholder="Email Address" id="email-address">
+                    <input type="Tell" placeholder="Phone Number" id="Phone-number">
+                    <textarea  id="massage" rows="5" placeholder="Massage"></textarea>
+                    <input type="submit" value="Send Massage" id="send-massage">
+                </form>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-area">
+        <div class="container">
+            <p>&copy;John Doe 2022, All rights Reserved</p>
+        </div>
+        
+    </footer>
+    <script>
+        function menufunction(){
+            var menu = document.getElementById("main-nav")
+            menu.classList.toggle("show-menu")
+
+        }
+    </script>
+    
+</body>
+
+<h1>rkhhh</h1>
+</html>
